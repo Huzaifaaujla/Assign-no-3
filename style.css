@@ -1,0 +1,274 @@
+@font-face {
+    font-family: NewYorkSmallRegular;
+    src: url(./fonts/FontsFree-Net-NewYorkSmallRegular.ttf);
+  }
+  @font-face {
+    font-family:NewYorkExtra;
+      src: url(./fonts/New\ York\ Regular.ttf);
+  }
+  @font-face {
+      font-family:SF-Mono ;
+      src: url(./fonts/FontsFree-Net-SFMono-Regular.ttf);
+  }
+  body{
+      overflow-x: hidden;
+  }
+
+  .container-fluid{
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+  }
+.custam-nav{
+    justify-content: end;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.navbar{
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        border-bottom:0.2px solid rgb(236, 227, 227);
+}
+.nav-item a{
+    margin: 0px 12px 12px 0px;
+    font-family: NewYorkSmallRegular;
+    color: rgb(3,3,3);
+}
+.active{
+    border-bottom: 1px solid black;
+    font-weight: bolder;
+}
+.main{
+    font-weight: bolder;
+    font-size: 42px;
+    line-height: 50px;
+    font-family:NewYorkExtra;
+    text-align: center;
+}
+.head{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    font-family:SF-Mono;
+    margin-bottom: 34px;
+}
+.center-img{
+
+    width: 100%;
+    height: 670px;
+}
+.mid-img{
+    width: 100%;
+    height: 439px;
+}
+
+.media-heading{
+    font-weight: bold;
+}
+
+.icon{
+border-radius: 0px;
+background-color:white;
+color: black;
+border: 1px solid rgb(238, 231, 231);
+}
+.iconright{
+    margin-left: 105px;
+}
+.line{
+    margin-top: 20px;
+    padding-top: 22px;
+    border-top: 2px solid black;
+}
+.samefont{
+    font-family:NewYorkSmallRegular;
+}
+.imgtext{
+margin-top: 10px;
+margin-bottom: 25px;
+}
+.secondicon{
+    border-left: 2px solid black;
+}
+        
+.liststyle{
+    list-style: none;
+    padding: 0px;
+}
+.liststyle .listicon{
+    
+      margin:0;
+      margin-bottom: 1em;
+      padding-left: 1.2em;
+      position: relative;
+}
+  .listicon:after{
+        content: '';
+        font-size: 12px;
+        height: .4em;
+        width: .4em;
+        background:black;
+        position: absolute;
+        transform: rotate(45deg);
+        top: 7.3px;
+        left: 0;
+      }
+.icontxt{
+    margin-left: 17px;
+}
+.iconpad{
+    margin: 0px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 0px;
+    border: 1px solid rgb(238, 231, 231);
+}
+.end-img{
+    border-radius: 30px;
+}
+.end-line{
+
+    border-top: 3px solid rgb(36, 36, 36);
+}
+.look-img{
+position: relative;
+top: -25px;
+}
+.sizefont{
+    font-size: 44px;
+    font-weight: bolder;
+    text-align: center;
+}
+.gridimg{
+    width: 100%;
+}
+.gridfont{
+    text-align: center;
+    padding: 10px 20px 10px 20px ;
+}
+.inputbtn{
+    color: white;
+    background-color: black;
+    padding: 15px 35px 15px 35px;
+}
+.inputbox{
+    border: 2px solid black;
+    border-top: 8px solid black;
+   padding: 50px;
+}
+.centerptxt{
+    text-align: center;
+}
+.divcolor{
+    background-color: black;
+     color: white;
+}
+.paracenter{
+    text-align: center;
+}
+.linklast{
+    padding: 12px;
+    color: white;
+}
+.footer{
+    color: white;
+ background-color:black ;
+}
+.look{
+    position: static;
+}
+.parahead{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.footerletter{
+    margin: 14px 18px;
+}
+.footerletter div{
+    letter-spacing: 2px;
+}
+.bold{
+    font-size: 14px;
+    color: rgb(255, 148, 200);
+    font-weight: bolder;
+}
+@media only screen and (max-width: 990px) {
+    .navbar{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 17px;
+    }
+
+}
+
+@media only screen and (min-width:300px) and (max-width:980px){
+    .center-img{
+        height: 350px;
+    }
+    .mid-box{
+        margin: 0px;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .mid-img{
+     height: 300px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .mid-img{
+     height: 300px;
+    }
+    .icontxt{
+        display: none;
+    }
+    .iconpad{
+        margin: 0px;
+        padding: 8px 32px 8px 32px;
+        font-size: 28px;
+        border-color: white;
+    }
+    .btnfont{
+        margin: 0px;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width:991px){
+    .icon{
+      padding: 8px 40px 8px 40px;
+      
+    }
+    .iconright{
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width:576px){
+    .inputbox{
+        border-left: 0px;
+        border-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .paracenter{
+        
+        padding: 0px 25px 0px 25px;
+    } 
+    
+}
+@media only screen and (max-width: 1369px) {
+    .parahead{
+        font-size: 9px;
+    }
+}
+    @media only screen and (max-width: 866px) {
+       .parahead{
+           padding: 0px;
+           font-size: 10px;
+           margin: 8px 30px;
+       }
+    }
